@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Open LoginServlet in Browser",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "url": "http://localhost:8080/LoginServlet/",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "Run Tomcat (mvn tomcat7:run)",
+      "presentation": {
+        "hidden": false
+      }
+    }
+  ]
+}
