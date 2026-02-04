@@ -1,27 +1,46 @@
-# SearchServlet - RUTAGANIRA SHEMA Derrick (26506)
+# Login Servlet & Search Servlet  
+**RUTAGANIRA SHEMA Derrick (26506)**  
+Group E
 
-A Java servlet application that handles search queries and redirects to Google search.
+A Java Servlet–based web application implementing **two independent servlet tasks**:
+- Login Servlet
+- Search Servlet
 
-## Developer
-**RUTAGANIRA SHEMA Derrick** - devderrickshema  
-**Student ID**: 26506
+Both servlets are managed in the same repository but clearly differentiated to match separate assignment questions.
 
-## Features
+---
+
+## 👨‍💻 Developer
+**Name:** RUTAGANIRA SHEMA Derrick  
+**Student ID:** 26506  
+**GitHub:** devderrickshema  
+
+---
+
+## 📌 Features
+
+### 🔐 Login Servlet
+- Accepts user login credentials
+- Processes form submission using servlets
+- Demonstrates request handling and response flow
+- Servlet mapping via `web.xml`
+
+### 🔎 Search Servlet
 - Accepts search queries via POST request
-- URL encodes search terms for safe transmission
-- Redirects to Google search with the query
-- Handles empty queries gracefully
+- Handles empty input gracefully
+- URL-encodes search queries safely
+- Redirects users to Google search results
 
-## Quick Start
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Java JDK 8+
+- Maven
+- Apache Tomcat (via Maven plugin)
+
+### Run the Project
 ```bash
 mvn clean package
 mvn tomcat7:run
-```
-
-Access the application at: http://localhost:8081/SearchServlet/
-
-## Project Structure
-- Maven-based Java web application
-- Standard servlet implementation
-- Web.xml configuration for servlet mapping
-- Clean separation of concerns
