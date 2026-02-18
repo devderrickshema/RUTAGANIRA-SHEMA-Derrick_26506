@@ -276,11 +276,3 @@ Key application properties in `application.properties`:
 ## 📄 License
 
 This project is part of an academic assignment at AUCA (Africa University of Central Africa).
-
-## 📞 Support
-
-For issues or questions, please contact the development team or create an issue in the repository.
-
----
-
-**Happy Coding! 🚀**
